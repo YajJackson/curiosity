@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import Navbar from './components/Navbar.js'
-import Main from './components/Main'
-import DrawerMenu from './components/DrawerMenu'
-import './App.css';
+import React, {Component} from 'react';
+// import {BrowserRouter, Route, Link } from 'react-router-dom'
+import {Grid, Row, Col} from 'react-bootstrap'
+
+import NavHeader from './components/NavHeader'
+import CoursePage from './components/courses/CoursePage'
+import StudyPage from './components/study/StudyPage'
 
 class App extends Component {
   render() {
     return (
-      <div className="App demo-layout-transparent mdl-layout mdl-js-layout">
-        <Navbar />
-        <Main />
-        <DrawerMenu />
-      </div>
+        <Grid >
+          
+        </Grid>
     );
   }
 }
